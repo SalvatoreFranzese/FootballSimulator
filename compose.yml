@@ -1,0 +1,6 @@
+services:
+    server:
+        container_name: MarioStrikersCMD_server
+        build: .
+        ports:
+            - "12122:12122"
